@@ -103,13 +103,13 @@ h1 {
  
 }
 
-img[src="/18-Week/UX_UI_HW_18/Images/Shelterhero.png"] {
+img[src="../Images/Shelterhero.png"] {
   display: inline;
   width: 100%;
   
 }
 
-img [src="/18-Week/UX_UI_HW_18/Images/Applyleft.png">] {
+img [src="../Images/Applyleft.png">] {
   max-width: 600px;
 }
 
