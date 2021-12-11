@@ -80,13 +80,10 @@ body {
 
 }
 
-
 .content button:hover {
   background-color:#A6795B;
   
 }
-
-
 
 .heroImg {
   display: flex;
@@ -109,7 +106,6 @@ h1 {
 img[src="/18-Week/UX_UI_HW_18/Images/Shelterhero.png"] {
   display: inline;
   width: 100%;
-  
   
 }
 
