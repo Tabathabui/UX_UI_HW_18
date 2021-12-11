@@ -1,0 +1,282 @@
+/* Navigation styles */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 40px 40px 40px 40px;
+  width: 30%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+/* Column styles */
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  
+}
+.content h1 {
+  color: #A6795B;
+  size: 36px;
+}
+
+.content button {
+  
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #d3d3d3;
+  border: 1px;
+  width: 150px;
+ 
+}
+
+.content button:hover {
+  background-color:#A6795B;
+  
+}
+
+.profilepic {
+  padding: 40px;
+  display: inline;
+  width: 600px;
+  align-self: center;
+}
+
+.heroImg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-image: url("../Images/gradientback.png");
+  background-repeat: no-repeat;
+  background-size: 1200px 800px;
+  
+  
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+
+h1 {
+  font-family: 'Cabin Sketch';
+ 
+}
+
+img[src="Images/Tabathanew.png"] {
+  display: inline;
+  width: 400px;
+  align-self: center;
+}
+
+img[src="Images/RESUME.png"] {
+  display: inline;
+  width: 600px;
+  
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 40px;
+  color: white;
+  background-color: #97a9b1;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  background-color: #81969E;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+.tablehead {
+  align-items: left;
+  
+}
+
+.resumecode h2 {
+  font-family: 'Cabin Sketch';
+  color: #A6795B
+}
+
+.resumecode {
+  margin-left: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+
+}
+
+.resumeleft {
+  margin-right: 50px;
+  min-width: 225px;
+
+}
+
+.vl {
+  border-left: 1px solid #A6795B;
+  height: 175px;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+
+.resumeright { 
+  margin-left: 50px;
+}
+.lista {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px; 
+  width: 800px;
+  display: inline;
+}
+
+h3 {
+  font-family: 'Cabin Sketch';
+  text-decoration-line: underline;
+}
+ .projects {
+   margin-left: 40px;
+ }
+
+ .contact {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px; 
+  width: 800px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+ }
+
+ .projects strong {
+  font-family: 'Cabin Sketch';
+  color: #A6795B;
+ }
+
+
+/* Footer Styles */
+.footer { 
+  
+  background-color: #A6795B;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: white;
+  width: 100% !important;
+  
+}
+
+.left {
+  margin-left: 40px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+img[src="../UX_UI_HW_17/Images/Instagram.png"] {
+  height: 20px;
+  width: 20px;
+  padding-right: 20px;
+}
+img[src="Images/linked.png"] {
+  height: 20px;
+  width: 20px;
+  padding-right: 20px;
+  
+}
+img[src="Images/behance.png"] {
+  height: 20px;
+  width: 20px;
+  padding-right: 20px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.right {
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  
+}
+
+.copyright {
+font-size: 10px;
+padding-top: 50px;
+color: #e0d5cd;
+}
+
+.left button {
+  padding: 10px;
+  background-color: none;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px #525151;
+  border: none;
+  width: 150px;
+  opacity: .8;
+}
+p{
+  font-size: 15px;
+  
+}
+
+@media only screen and (max-width: 1440px){
+p {
+  color: grey;
+  font-size: 15px;
+}
+
+}
+
+@media only screen and (max-width: 920px){
+  p {
+      color: dark grey;
+      font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 740px){
+  p {
+      color: black;
+      font-size: 10px;
+   
+  }
+  .heroImg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
