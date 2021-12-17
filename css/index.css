@@ -229,7 +229,7 @@ h3 {
   font-size: 15px;
   color: white;
   width: 100% !important;
-  margin: 40px;
+  
   
 }
 
@@ -436,6 +436,14 @@ h4 {
   grid-row: row 11;
 }
 
+.row1 p {
+  line-height: 5px;
+}
+
+.row1 h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
 
 
 
