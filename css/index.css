@@ -242,7 +242,7 @@ h3 {
 
 }
 
-img[src="../UX_UI_HW_17/Images/Instagram.png"] {
+img[src="Images/Instagram.png"] {
   height: 20px;
   width: 20px;
   padding-right: 20px;
@@ -445,5 +445,15 @@ h4 {
   font-size: small;
 }
 
+.row1 button {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #525151;
+  border: none;
+  width: 150px;
+  opacity: .8;
+  margin-top: 20px;
+  background-color: #A6795B;
+}
 
 
