@@ -95,6 +95,7 @@ body {
 p {
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
+  font-weight: bold;
 }
 
 
@@ -109,9 +110,7 @@ img[src="/18-Week/UX_UI_HW_18/Images/Shelterhero.png"] {
   
 }
 
-img [src="/19-Week/UX_UI_HW_18/Images/Applyleft.png)"] {
-  max-width: 600px;
-}
+
 
 .skills {
   display: flex;
@@ -259,6 +258,26 @@ img[src="Images/behance.png"] {
   padding-right: 20px;
 }
 
+img[src="/18-Week/UX_UI_HW_18/Images/Applyleft.png"] {
+  width: 100%;
+  
+}
+img[src="/18-Week/UX_UI_HW_18/Images/Applyright.png"] {
+  width: 50%;
+}
+img[src="/18-Week/UX_UI_HW_18/Images/Applycenter.png"] {
+  width: 100%;
+}
+img[src="/18-Week/UX_UI_HW_18/Images/Hypothesis.png"] {
+  width: 60%;
+  margin-top: 50px;
+}
+img[src="/18-Week/UX_UI_HW_18/Images/problem.png"] {
+  width: 30%;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
 img[src="/18-Week/UX_UI_HW_18/Images/Veteran.png"] {
   width: 100%;
 }
@@ -268,8 +287,15 @@ img[src="/18-Week/UX_UI_HW_18/Images/Business.png"] {
 
 img[src="/18-Week/UX_UI_HW_18/Images/Color mood 1.png"] {
   width: 100%;
-}img[src="/18-Week/UX_UI_HW_18/Images/styletile.png"] {
+}
+
+img[src="/18-Week/UX_UI_HW_18/Images/styletile.png"] {
   width: 100%;
+}
+
+.wrapper h4 {
+  font-family: 'Cabin Sketch';
+  color: black;
 }
 
 
@@ -311,33 +337,7 @@ p{
   
 }
 
-@media only screen and (max-width: 1440px){
-p {
-  color: grey;
-  font-size: 15px;
-}
 
-}
-
-@media only screen and (max-width: 920px){
-  p {
-      color: dark grey;
-      font-size: 12px;
-  }
-}
-
-@media only screen and (max-width: 740px){
-  p {
-      color: black;
-      font-size: 10px;
-   
-  }
-  .heroImg {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-}
 h4 {
   font-weight: 100;
 }
@@ -456,4 +456,39 @@ h4 {
   background-color: #A6795B;
 }
 
+.bullets {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  margin: 30px;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+.numberCircle {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  padding: 4px;
+  background: red;
+  color: white;
+  text-align: center;
+  font: 15px 'Roboto', sans-serif;
+  margin: 20px;
+  margin-top: 40px;
+}
+
+.redline p {
+  color: red;
+  font-size: 15px;
+  height: 20px;
+  padding: 4px;
+  
+  margin-top: 40px;
+}
+
+.redline {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
 
