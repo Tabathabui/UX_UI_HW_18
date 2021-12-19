@@ -465,30 +465,35 @@ h4 {
 }
 
 .numberCircle {
-  border-radius: 50%;
-  width: 20px;
+  border-radius: 50px;
+  min-width: 20px;
   height: 20px;
   padding: 4px;
-  background: red;
+  background: #FF0303;
   color: white;
   text-align: center;
   font: 15px 'Roboto', sans-serif;
   margin: 20px;
-  margin-top: 40px;
+  
 }
 
 .redline p {
-  color: red;
+  color: #FF0303;
   font-size: 15px;
-  height: 20px;
+  
   padding: 4px;
   
-  margin-top: 40px;
 }
 
 .redline {
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  justify-content: start;
+}
+
+.align {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
